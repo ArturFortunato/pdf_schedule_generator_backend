@@ -1,6 +1,7 @@
 import flask
 import flask_cors   
 import json
+from app.schedule_generator import temp_main
 
 app = flask.Flask(__name__)
 flask_cors.CORS(app)
